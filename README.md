@@ -1,3 +1,12 @@
+# new version of create video from .png files 
+
+```ruby
+ffmpeg -i input.mp4 -c:v libx265 -crf 28 output.mp4
+```
+
+
+
+
 # Create_Video_From_Images
 Create Video From Images
 
